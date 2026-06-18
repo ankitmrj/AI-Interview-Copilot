@@ -11,6 +11,20 @@ Built with **Python**, **Streamlit**, **LLMs**, and a **Kaggle Interview Questio
 
 ---
 
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home.png)
+
+
+### Performance Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+
+---
 ## 🌟 Features
 
 ### 🎯 Interview Generation
@@ -237,21 +251,7 @@ Areas for Improvement:
 - Coding interview support
 - Behavioral interview assessment
 
----
 
-## 📸 Screenshots
-
-### Home Page
-
-![Home Page](screenshots/home.png)
-
-
-### Performance Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-
----
 
 ## 🤝 Contributing
 
