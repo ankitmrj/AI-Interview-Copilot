@@ -241,21 +241,15 @@ Areas for Improvement:
 
 ## 📸 Screenshots
 
-### Home Screen
+### Home Page
 
-Add screenshot here
+![Home Page](screenshots/home.png)
 
-```text
-screenshots/home.png
-```
 
-### Interview Evaluation
+### Performance Dashboard
 
-Add screenshot here
+![Dashboard](screenshots/dashboard.png)
 
-```text
-screenshots/evaluation.png
-```
 
 ---
 
