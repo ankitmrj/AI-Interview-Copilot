@@ -1,0 +1,91 @@
+role,question,category,difficulty,ideal_points
+sde intern,Explain the difference between process and thread.,OS,easy,Processes have separate memory spaces; threads share memory within a process; mention context switching and synchronization.
+sde intern,What is a REST API?,Web,easy,Representational State Transfer; stateless; resources; HTTP methods; status codes.
+sde intern,Explain hashing and its use in hash maps.,DSA,easy,Hash function maps keys to buckets; average O(1) lookup; collisions and resolution.
+sde intern,What is normalization in DBMS?,DBMS,easy,"Reduce redundancy and update anomalies; 1NF, 2NF, 3NF."
+sde intern,What is the difference between SQL and NoSQL?,DBMS,easy,SQL relational schema; NoSQL flexible schema; use-cases and tradeoffs.
+sde intern,Explain the time complexity of binary search.,DSA,easy,O(log n); works on sorted arrays; halves search space each step.
+sde intern,What is the difference between GET and POST?,Web,easy,GET retrieves data; POST submits data; GET is idempotent and usually cacheable.
+sde intern,What is the purpose of indexes in a database?,DBMS,easy,Speed up reads via lookup structures; trade off slower writes and storage.
+sde intern,Describe the sliding window technique.,DSA,medium,Maintain a window over array/string; expand and shrink to optimize subarray problems.
+sde intern,How does a stack differ from a queue?,DSA,easy,LIFO vs FIFO; examples and operations.
+sde intern,Explain MVC architecture.,Web,medium,Model-View-Controller separation of concerns; improves maintainability.
+sde intern,What is polymorphism in OOP?,OOP,easy,"Same interface, different implementations; compile-time and runtime polymorphism."
+sde intern,What is encapsulation in OOP?,OOP,easy,Bundle data and methods; hide internal state via access modifiers.
+sde intern,What is deadlock and how can it be avoided?,OS,medium,"Four conditions; prevention, avoidance, detection, recovery."
+sde intern,What is the difference between TCP and UDP?,CN,easy,TCP reliable connection-oriented; UDP faster connectionless.
+frontend intern,What is the virtual DOM?,React,easy,In-memory representation of DOM; diffing reduces updates.
+frontend intern,Explain useEffect in React.,React,easy,Side effects after render; dependency array controls execution.
+frontend intern,How do you manage state in React?,React,medium,"useState, useReducer, context, external state libraries."
+backend intern,What is middleware in Express?,Node.js,easy,Functions that process request/response pipeline and call next().
+backend intern,How do JWT tokens work?,Security,medium,Signed tokens with header.payload.signature; auth without server session storage.
+backend intern,What is indexing in MongoDB?,DBMS,medium,"Indexes improve query performance; single-field, compound, unique."
+data analyst intern,Explain joins in SQL.,DBMS,easy,"Inner, left, right, full; combine rows based on matching keys."
+data analyst intern,What is a primary key?,DBMS,easy,Uniquely identifies each row; cannot be null.
+data analyst intern,What is a foreign key?,DBMS,easy,References a primary key in another table; enforces referential integrity.
+sde intern,Explain recursion with an example.,DSA,easy,"Function calling itself with base case; factorial, tree traversal."
+sde intern,How would you detect a cycle in a linked list?,DSA,medium,"Floyd’s slow and fast pointers; O(n) time, O(1) space."
+sde intern,What is memoization?,DSA,medium,Caching repeated subproblem results in recursive DP.
+sde intern,Explain the difference between authentication and authorization.,Security,easy,Authentication verifies identity; authorization checks permissions.
+sde intern,What is CORS?,Web,medium,Browser security mechanism controlling cross-origin requests.
+sde intern,What is a race condition?,OS,medium,Output depends on timing of concurrent execution; fix with synchronization.
+sde intern,Explain API rate limiting.,Web,medium,Restricts request frequency to protect service and ensure fairness.
+sde intern,What is Big-O notation?,DSA,easy,Describes upper bound of growth rate in time or space.
+sde intern,Explain arrays vs linked lists.,DSA,easy,Arrays have contiguous memory and random access; linked lists have dynamic nodes.
+sde intern,What is a heap?,DSA,medium,Tree-based structure with heap property; used in priority queues.
+sde intern,What is a hash collision?,DSA,easy,Two keys map to same bucket; resolve by chaining or open addressing.
+sde intern,Explain topological sorting.,DSA,medium,Ordering directed acyclic graph nodes respecting edges.
+sde intern,What is Git?,Tools,easy,Version control system for tracking changes and collaboration.
+sde intern,What is CI/CD?,DevOps,medium,Continuous integration and deployment automate testing and delivery.
+sde intern,What is a closure in JavaScript?,JavaScript,medium,Function plus lexical environment; preserves access to outer scope.
+sde intern,Explain promises in JavaScript.,JavaScript,medium,Handle async operations with pending/fulfilled/rejected states.
+sde intern,What is dependency injection?,Software Design,medium,Provide dependencies from outside for loose coupling and testability.
+frontend intern,What is the difference between controlled and uncontrolled components?,React,medium,Controlled components store form state in React; uncontrolled use DOM refs.
+frontend intern,What is prop drilling?,React,easy,Passing props through many nested components.
+frontend intern,What is responsive design?,CSS,easy,"Layouts adapt to screen sizes using fluid grids, media queries."
+frontend intern,What is the purpose of semantic HTML?,HTML,easy,"Improves accessibility, SEO, and readability."
+frontend intern,What is event bubbling?,JavaScript,medium,Events propagate from child to parent unless stopped.
+backend intern,What is CRUD?,Backend,easy,"Create, Read, Update, Delete operations."
+backend intern,What is server-side rendering?,Web,medium,HTML is generated on the server before reaching the browser.
+backend intern,What is pagination?,Backend,easy,Split large result sets into pages for efficiency.
+backend intern,What is caching?,Backend,medium,Store reusable data temporarily to reduce latency and load.
+sde intern,Explain a time you built a project end-to-end. Version 1,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 1,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 2,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 2,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 3,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 3,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 4,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 4,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 5,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 5,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 6,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 6,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 7,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 7,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 8,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 8,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 9,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 9,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 10,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 10,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 11,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 11,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 12,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 12,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 13,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 13,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 14,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 14,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 15,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 15,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 16,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 16,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 17,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 17,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 18,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 18,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 19,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 19,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
+sde intern,Explain a time you built a project end-to-end. Version 20,Behavioral,medium,"Describe problem, stack, challenges, result, and impact clearly."
+sde intern,Tell me about a challenging bug you fixed. Version 20,Behavioral,medium,"Explain debugging approach, root cause, fix, and learning."
